@@ -28,7 +28,7 @@ class Chat extends Component{
         const response = await this.openai.createCompletion({
             model: "text-davinci-003",
             prompt: input,
-            temperature: 1,
+            temperature: 0.9,
             max_tokens: 500,
           }
         );
