@@ -21,7 +21,7 @@ class ChatForm extends Component {
   render() {
     return (
       <form className='ChatForm' onSubmit={this.handleSubmit}>
-        <label htmlFor='input'>Chat here</label>
+        {/* <label htmlFor='input'>Chat here</label> */}
         <textarea
         className="msger-input"
           type='text'
